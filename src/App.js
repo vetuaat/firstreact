@@ -1,5 +1,5 @@
 import React from 'react';
-import HelloWorld from './HelloWorld'
+import HelloWorldList from './HelloWorldList'
 import './App.css'
 
 
@@ -7,8 +7,7 @@ import './App.css'
 const App = () => {
     return (
         <div className ="App">
-            <HelloWorld name = 'Reni'/>
-            <HelloWorld name = 'Tomi'/>
+           <HelloWorldList/>
 
         </div> 
     );
